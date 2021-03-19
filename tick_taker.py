@@ -119,7 +119,7 @@ def run(args):
     if args.base_url:
         opts['base_url'] = args.base_url
     elif 'key_id' in opts and opts['key_id'].startswith('PK'):
-        opts['base_url'] = 'https://paper-api.alpaca.markets'
+        opts['base_url'] = 'https://sim-api.tradestation.com/v2'
     # Create an API object which can be used to submit orders, etc.
     api = tradeapi.REST(**opts)
 
