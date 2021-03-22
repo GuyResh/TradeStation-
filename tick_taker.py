@@ -64,7 +64,7 @@ class Quote():
                 self.reset()
 
 
-class Position():
+class Position:
     """
     The position object is used to track how many shares we have. We need to
     keep track of this so our position size doesn't inflate beyond the level
